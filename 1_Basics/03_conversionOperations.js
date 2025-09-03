@@ -12,7 +12,7 @@ let valInNumber= Number(score)
 
 let isLoggedIn=""
 let booleanLoggedIn=Boolean(isLoggedIn)
-console.log(booleanLoggedIn)
+// console.log(booleanLoggedIn)
 
 // 1=> true; 0=> false
 // ""= false
@@ -20,5 +20,25 @@ console.log(booleanLoggedIn)
 
 let a=33
 let stringNumber=String(a)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+let neg=-a
+console.log(neg);
+console.log(typeof neg);
+// some basic operations like + , - ,*, ** ,/ and many more like java.
+
+
+// console.log(3**3);
+// console.log(3**0.5);
+// console.log(-true);
+// console.log(1+3+true+"33");
+// console.log("33"+3+true);
+
+//increment and decrement operations
+// console.log("Increment and decrement operations");
+// let count=0;
+// console.log(++count);
+// console.log(count++);
+// console.log(--count);
+// console.log(count--);
