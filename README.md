@@ -1,1 +1,2 @@
-# JavaScriptMastery from zero
+# JavaScriptMastery 
+1. Javascript basics
