@@ -1,1 +1,1 @@
-# JavaScriptMastery 
+# JavaScriptMastery from zero
