@@ -42,3 +42,17 @@ console.log(user["fullname"]["userfullname"]["first"]); // Sujal
 console.log(user.fullname.first); // error first is not defined
 console.log(user["fullname"]["first"]); // error first is not defined
 // both are same
+
+
+//object destructuring 
+//it is a way to extract properties from an object and assign them to variables
+
+const course ={
+    coursename: "ReactJS",
+    price: "999",
+    courseInstructor: "Sujal"
+}
+const {courseInstructor} = course; // object destructuring
+console.log(courseInstructor); // Sujal
+const {courseInstructor: instructor} = course; // object destructuring
+console.log(instructor); // Sujal
