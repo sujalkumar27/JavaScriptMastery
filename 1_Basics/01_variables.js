@@ -13,3 +13,9 @@ let age; // Declared but not initialized
 // id="67890"; // Reassigning of constant variable not allowed
 
 console.table([ id ,name, email, city, age]);
+
+//summary 
+// Keyword	Function Scope	Block Scope
+// var	    ✔️	 ❌
+// let	    ❌	✔️
+// const	❌	✔️

@@ -28,4 +28,11 @@ console.log(result); // 50
 // here the line after return statement will not be executed
 
 
+//function with many unknown parameters 
+function calculateSum(...numbers) { // rest operator
+    return numbers;
+}
+console.log(calculateSum(1, 2, 3, 4, 5)); // [ 1, 2, 3, 4, 5 ]
+console.log(calculateSum(10, 20)); // [ 10, 20 ]
+console.log(calculateSum()); // []
 
