@@ -48,5 +48,3 @@ console.log(getGradeDescription('A')); // Excellent
 console.log(getGradeDescription('C')); // Average
 console.log(getGradeDescription('F')); // Fail
 console.log(getGradeDescription('X')); // Invalid grade
-
-  
